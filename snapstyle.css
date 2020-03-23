@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: white;
+    font-weight: 400;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    font-weight: 800;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+#home{
+    background:yellow;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 50px;
+}
+#ent{
+    background:yellow;
+    color:black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+
+#feed{
+    display: flex;
+    flex-direction: column;
+    justify-content:space;
+    align-items: center;
+    padding: 50px;
+    list-style: none;
+
+
+}
+
+#feed ul li{
+    margin: 10px 0;
+}
+
+#feed ul{
+    list-style: none;
+}
+
+#feed-Container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#feed-Container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#ent div article{
+    background:yellow;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10%;
+}
+
+#ent div{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    width: 100%;
+    padding: 20px;
+    font-weight: 100;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+
+}
+
+.logo:hover{
+        text-transform: uppercase;
+        cursor: pointer;
+}
+.nav-link{
+    font-size: 1.2em;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+.nav-link:hover{
+    text-transform: lowercase;
+}
+header div p{
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+h1,h2,h3,h4{
+    font-weight: 800;
+}
+h1{
+font-size: 4em;
+}
+h2{
+font-size: 2.5em;
+}
+h3{
+  font-size: 1.8em;  
+}
+h4{
+    font-size: 1.8em;  
+  }
+
+
+  .link-button {
+    background-color:white; /* Green */
+    border: none;
+    color:black;
+    padding: 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+
+
+#contact {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+
